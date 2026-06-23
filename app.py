@@ -104,7 +104,7 @@ h2, h3 {
 # ======================
 # LOAD DATA
 # ======================
-df = pd.read_csv(r"C:\Users\91739\OneDrive\Desktop\bikewale\Data\bikewale_bikes.csv")
+df = pd.read_csv("Data/bikewale_bikes.csv")
 
 # Cleaning
 df["Rating"] = pd.to_numeric(df["Rating"], errors="coerce")
